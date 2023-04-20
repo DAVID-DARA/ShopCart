@@ -132,6 +132,7 @@
 }
 
 .filters-sorts select {
+    margin: 10px 0px;
     margin-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -155,7 +156,7 @@
     width: auto;
     margin: 0px;
     /* display: inline-block; */
-    height: 1800px;
+    height: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -163,14 +164,14 @@
     width: auto;
     height: 500px;
     margin: 50px 0px;
-    margin-right: 20px;
+    margin-right: 0px;
     position: relative;
     display: inline-block;
 }
 
 .card-one-image {
     display: flex;
-    width: 280px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
     justify-content: center;
@@ -181,6 +182,16 @@
 .card-one-image img {
     width: 200px;
     height: 200px;
+}
+
+.card-one-image i {
+    float: right;
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 .card-one-description {
@@ -199,14 +210,14 @@
     width: auto;
     height: 500px;
     margin: 50px 0px;
-    margin-right: 20px;
+    margin-right: 0px;
     position: relative;
     display: inline-block;
 }
 
 .card-two-image {
     display: flex;
-    width: 280px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
     justify-content: center;
@@ -217,6 +228,16 @@
 .card-two-image img {
     width: 200px;
     height: 200px;
+}
+
+.card-two-image i {
+    float: right;
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 .card-two-description {
@@ -235,14 +256,14 @@
     width: auto;
     height: 500px;
     margin: 50px 0px;
-    margin-right: 20px;
+    margin-right: 0px;
     position: relative;
     display: inline-block;
 }
 
 .card-three-image {
     display: flex;
-    width: 280px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
     justify-content: center;
@@ -253,6 +274,16 @@
 .card-three-image img {
     width: 300px;
     height: 300px;
+}
+
+.card-three-image i {
+    float: right;
+    position: relative;
+    bottom: 120px;
+    left: -30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 .card-three-description {
@@ -268,7 +299,7 @@
 }
 
 .main .shop-content .card-four {
-    width: auto;
+    width: 300px;
     height: 500px;
     margin: 50px 0px;
     position: relative;
@@ -278,10 +309,10 @@
 
 .card-four-image {
     display: flex;
-    width: 280px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
     background-color: #F0EFEE;
 }
@@ -289,6 +320,16 @@
 .card-four-image img {
     width: 150px;
     height: 150px;
+}
+
+.card-four-image i {
+    float: right;
+    position: relative;
+    bottom: 120px;
+    left: 45px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 .card-four-description {
@@ -315,8 +356,9 @@
     padding: 10px 20px;
     color: white;
     background-color: #033B2C;
-    border: 0px solid;
+    border: 1px solid #033B2C;
     border-radius: 50px;
+    transition: 0.5s;
 }
 
 .green-color {
