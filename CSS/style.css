@@ -154,44 +154,68 @@
 .main .shop-content {
     width: auto;
     margin: 0px;
-    height: 500px;
+    height: auto;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline;
 }
 
-    .card-one {
-        width: 250px;
-        height: 300px;
-        margin: 50px 0px;
-    }
+.card-one {
+    width: 450px;
+    height: 300px;
+    margin: 50px 0px;
+    display: inline;
+}
     
-        .card-one-image {
-            display: flex;
-            width: 350px;
-            height: 300px;
-            border-radius: 10px;
-            justify-content: center;
-            align-items: center;
-            background-color: #F0EFEE;
-        }
+.card-one-image {
+    display: flex;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EFEE;
+}
 
-        .card-one-image img {
-            width: 200px;
-            height: 200px;
-        }
+.card-one-image img {
+    width: 200px;
+    height: 200px;
+}
 
-        .card-one-description {
-            margin: 10px 0px;
-        }
+.card-one-description {
+    margin: 10px 0px;
+}
 
-        .card-one-description h4 {
-            margin: 20px 0px;
-        }
+.card-one-description h4 {
+    margin: 20px 0px;
+}
 
-        .card-one-description .green-color {
-            color: greenyellow;
-        }
+.card-one-description .green-color {
+    color: greenyellow;
+}
 
-        .card-one-description p {
-            margin: 20px 0px;
-        }
+.card-one-description p {
+    margin: 20px 0px;
+}
     
+.card-two {
+    width: 500px;
+    height: 300px;
+    margin: 50px 0px;
+    position: relative;
+    display: inline;
+}
+
+.card-two-image {
+    display: flex;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EFEE;
+}
+
+.card-two-image img {
+    width: 200px;
+    height: 200px;
+}
