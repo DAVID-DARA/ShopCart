@@ -40,19 +40,19 @@
     align-items: center;
 }
 
-.main .nav-bar ul {
+.nav-bar ul {
     margin: 0 50px;
     list-style-type: none;
     display: inline-block;
 }
 
-.main .nav-bar li {
+.nav-bar li {
     display: inline;
     margin: 0px 30px;
     margin-right: 10px;
 }
 
-.main .nav-bar a {
+.nav-bar a {
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -97,7 +97,7 @@
     border-radius: 5px;
 }
 
-.main .main-info .content-mi {
+.main-info .content-mi {
     position: relative;
     top: 70px;
     left: 100px;
@@ -105,12 +105,12 @@
     font-family: Arial, Helvetica, sans-serif;
     width: 600px;
 }
-.main .main-info .content-mi h1 {
+.main-info .content-mi h1 {
     color: #033B2C;
     font-size: 40px;
 }
 
-.main .main-info .content-mi button {
+.main-info .content-mi button {
     margin-top: 50px;
     padding: 15px 20px;
     width: 120px;
@@ -120,7 +120,7 @@
     color: white
 }
 
-.main .main-info img {
+.main-info img {
     position: relative;
     left: 50px;
 }
@@ -131,7 +131,7 @@
     height: 40px;
 }
 
-.main .filters-sorts select {
+.filters-sorts select {
     margin-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -142,10 +142,10 @@
     padding: 8px 15px;
 }
 
-.main .filters-sorts .ht {
+.filters-sorts .ht {
     width: 170px; 
 }
-.main .filters-sorts .Sort{
+.filters-sorts .Sort{
     float: right;
     background-color: white;
     border: 1px solid grey
@@ -154,21 +154,23 @@
 .main .shop-content {
     width: auto;
     margin: 0px;
-    height: auto;
+    /* display: inline-block; */
+    height: 1800px;
     font-family: Arial, Helvetica, sans-serif;
-    display: inline;
 }
 
-.card-one {
-    width: 450px;
-    height: 300px;
+.main .shop-content .card-one {
+    width: auto;
+    height: 500px;
     margin: 50px 0px;
-    display: inline;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
 }
-    
+
 .card-one-image {
     display: flex;
-    width: 350px;
+    width: 280px;
     height: 300px;
     border-radius: 10px;
     justify-content: center;
@@ -182,32 +184,29 @@
 }
 
 .card-one-description {
-    margin: 10px 0px;
+    margin: 0px 0px;
 }
 
 .card-one-description h4 {
     margin: 20px 0px;
 }
 
-.card-one-description .green-color {
-    color: greenyellow;
-}
-
 .card-one-description p {
     margin: 20px 0px;
 }
-    
-.card-two {
-    width: 500px;
-    height: 300px;
+
+.main .shop-content .card-two {
+    width: auto;
+    height: 500px;
     margin: 50px 0px;
+    margin-right: 20px;
     position: relative;
-    display: inline;
+    display: inline-block;
 }
 
 .card-two-image {
     display: flex;
-    width: 350px;
+    width: 280px;
     height: 300px;
     border-radius: 10px;
     justify-content: center;
@@ -218,4 +217,108 @@
 .card-two-image img {
     width: 200px;
     height: 200px;
+}
+
+.card-two-description {
+    margin: 0px 0px;
+}
+
+.card-two-description h4 {
+    margin: 20px 0px;
+}
+
+.card-two-description p {
+    margin: 20px 0px;
+}
+
+.main .shop-content .card-three {
+    width: auto;
+    height: 500px;
+    margin: 50px 0px;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.card-three-image {
+    display: flex;
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EFEE;
+}
+
+.card-three-image img {
+    width: 300px;
+    height: 300px;
+}
+
+.card-three-description {
+    margin: 0px 0px;
+}
+
+.card-three-description h4 {
+    margin: 20px 0px;
+}
+
+.card-three-description p {
+    margin: 20px 0px;
+}
+
+.main .shop-content .card-four {
+    width: auto;
+    height: 500px;
+    margin: 50px 0px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.card-four-image {
+    display: flex;
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EFEE;
+}
+
+.card-four-image img {
+    width: 150px;
+    height: 150px;
+}
+
+.card-four-description {
+    margin: 0px 0px;
+}
+
+.card-four-description h4 {
+    margin: 20px 0px;
+}
+
+.card-four-description p {
+    margin: 20px 0px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.add-to-cart:hover {
+    padding: 10px 20px;
+    color: white;
+    background-color: #033B2C;
+    border: 0px solid;
+    border-radius: 50px;
+}
+
+.green-color {
+    color: greenyellow;
 }
